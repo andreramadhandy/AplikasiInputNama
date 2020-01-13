@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="8dp"
+        android:text="Masukkan Nama Anda:"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:layout_marginLeft="8dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_marginBottom="8dp"
+        tools:ignore="Autofill,LabelFor,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="tampilkan"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+</LinearLayout>
